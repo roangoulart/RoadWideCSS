@@ -1,0 +1,84 @@
+#cores {width:200px; height:200px; background-color: rgba(64, 183, 140, 0.5);}
+/* As cores podem ser chamadas também pela numeração hexadecimal como #fff(branco), pelo próprio nome da cor, pelo rgb como no exemplo acima e pelo hsl como hsl(20, 100%, 59%) (laranja).
+O "a" é adicionado na sigla quando aplica opacidade na cor.
+*/
+
+/* Aula 15
+* {font-size:100%;}
+@font-face {font-family: open_sans; src: url(./font/opensans-regular-webfont.woff);}
+p {font-family: 'Arimo', sans-serif; font-size:1.2em;}
+*/
+
+/* Aula 14
+* {font-size:100%;}
+@font-face {font-family: open_sans; src: url(./font/opensans-regular-webfont.woff);}
+p {font-family: open_sans; font-size: 2.5em;}
+*/
+
+/* Aula 13
+* {font-size:100%;}
+p {font-family: Times, "Times New Roman", serif; font-variant: small-caps; font-weight: bold; font-style: italic; font-size:1em;}
+/* 1em é igual 1 16px*/
+
+/* Aula 12
+#blocl {background-color: green; width:300px; height:150px; border-radius:20px 50px 100px 0px;}
+*/
+
+/* Aula 11
+#conteudo {background-color: red; width:300px; height:70px; overflow:auto;}
+#conteudo p{opacity:0;}
+/* Opacity é o nível de transparência, 1 significa 100% e 0.5 50%. */
+
+/* Aula 10
+*{box-sizing:border-box;}
+#conteudo {background-color: red; width:300px; padding:20px; box-shadow:10px 10px 5px green;}
+*/
+
+/* Aula 9
+p {color:red; text-decoration: none; text-transform: capitalize; text-align: justify; text-indent: 20px; line-height: 25px; direction: ltr; letter-spacing: 3px; word-spacing: 4px;}
+h1 {text-align: left; text-decoration: underline; text-shadow: 1px 3px 4px red;}
+h2 {text-align: right; text-decoration: overline;}
+h3 {text-align: center; text-decoration: line-through;}
+*/
+
+/* Aula 8
+p {color:red; text-decoration: none; text-transform: capitalize;}
+h1 {text-align: left; text-decoration: underline;}
+h2 {text-align: right; text-decoration: overline;}
+h3 {text-align: center; text-decoration: line-through;}
+*/
+
+/* Aula 7
+#exemplo {background-color: green; color: #fff; width:500px; height:200px; padding: 10px 20px 30px 30px;}
+#exemplo2 {background-color: red; color:#fff; width:500px; margin: 20px 30px 20px 40px;}
+*/
+
+/* Aula 6
+#conteudo {width:80%; height: 100px;background-color: green; color:#fff; padding: 20px;}
+/*max-witdh: 500px; min-witdh:  500px; min-height: 20px;*/
+
+/* Aula 5
+.texto-principal {color:red; text-align: center;}
+
+.fundo-principal {background-color: green; padding: 20px;}
+
+#conteudo {background-color: blue; padding: 20px; color: green;}
+*/
+
+/* Aula 4
+h1, h2, p {color: red; text-align: center;}
+*/
+
+/* Aula 2 e 3
+ * {margin:0px; padding:0; color:red;}
+
+h1 {color:blue; font-size:50px;}
+p {color:green; font-size:12px;}
+
+input[type="text"]{width:200px; background-color: #ccc; height:35px; border:none;}
+input[name="email"]{width:200px; background-color: #ccc; height:35px; border:none;}
+input[type="submit"]{width:50px; background-color: green; height:35px; border:none; cursor:pointer; color:#fff;}
+
+/* Aula 1
+h1 {color:blue; font-size:60px; font-family: tahoma;}
+*/

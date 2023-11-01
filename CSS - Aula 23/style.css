@@ -1,3 +1,34 @@
+/* Quando quiser deixar a div alinhada no centro com margem, recomenda-se usar o Clear Fix; */
+.container {background-color: red; width:500px; margin: 0 auto;}
+/* Quando a div principal tem um tamanho fixo, é mais recomendado usar o float: left;*/
+
+.box1 {background-color: green; width:150px; height:150px; float: left;}
+.box2 {background-color: blue; width:150px; height:150px; float: right;}
+
+/* Antiga forma de usar o Clear Fix
+.clearfix {clear: both;} */
+
+/* Nova forma de usar o Clear Fix, sem precisar criar divs */
+.container::before, .container::after {content: ""; display: table;}
+.container::after {clear: both;}
+
+/* Aula 23
+body {background-image: url(./img/lsImmortalAlbumBackground.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size:auto;}
+ /* propriedade estenográfica/encurtada 
+body {background: url(./img/lsImmortalAlbumBackground.jpg) center left /auto no-repeat fixed;} */
+
+/* Aula 22
+#exemplo {width:200px; height:200px; background-color: red; transition: width 2s linear 1s, height 2s linear;}
+/* #exemplo {width:200px; height:200px; background-color: red; transition: all 2s linear;}
+#exemplo {width:200px; height:200px; background-color: red; transition-property: width; transition-duration: 2s; transition-timing-function: linear; transition-delay:2s;} */
+/*#exemplo:hover {width:350px; height:350px; background-color: green;}
+
+/* Aula 21
+#exemplo1 {border-style:solid; border-width: 5px; border-color: red;}
+#exemplo2 {border-top:solid 5px red;}
+#exemplo3 {border-bottom:solid 5px red; outline:dotted 5px green;}
+
+/* Aula 19
 #conteudo {width:600px; height:1200px; background-color: red; position:relative;}
 #texto {width:500px; background-color: green; position:fixed; right:0; bottom:0;}
 

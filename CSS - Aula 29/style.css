@@ -1,5 +1,9 @@
+* {margin: 0; padding: 0;}
+nav {width: 100vw; height: 80px; background-color: blue;}
+.banner {width: 100vw; height: calc(100vh - 80px); background-image: url(./img/lsNewLogo.png); background-size: cover;}
+
 /* Reset básico e padrão para os navegadores */
-* {margin:0px; padding:0px; border: none;}
+/* * {margin:0px; padding:0px; border: none;}
 a {text-decoration: none;}
 ul {list-style: none;}
 

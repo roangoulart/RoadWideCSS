@@ -1,5 +1,13 @@
+#img1 {margin: 40px 0 0 60px; filter: blur(4px);}
+#img2 {margin: 40px 0 0 60px; filter: brightness(20%);}
+#img3 {margin: 40px 0 0 60px; filter: contrast(100%);}
+
+/* * {margin: 0; padding: 0;}
+nav {width: 100vw; height: 80px; background-color: blue;}
+.banner {width: 100vw; height: calc(100vh - 80px); background-image: url(./img/lsNewLogo.png); background-size: cover;}
+
 /* Reset básico e padrão para os navegadores */
-* {margin:0px; padding:0px; border: none;}
+/* * {margin:0px; padding:0px; border: none;}
 a {text-decoration: none;}
 ul {list-style: none;}
 
